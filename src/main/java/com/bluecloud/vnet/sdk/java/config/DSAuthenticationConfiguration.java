@@ -3,8 +3,6 @@ package com.bluecloud.vnet.sdk.java.dssdk.config;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-import java.util.List;
-
 /**
  * @author dong.liping3
  * @version 1.0
@@ -13,8 +11,13 @@ import java.util.List;
  * @see
  */
 @Component
-@ConfigurationProperties(prefix = "conn.lists")
-public class ConConfig {
+@ConfigurationProperties
+public class DSAuthenticationConfiguration {
 
-    private List<Conns> conns;
+    @Value("${ds.auth.secretkey}")
+    private String secretKey;
+
+    public void validSecret() throws RuntimeException {
+        //valid ...
+    }
 }
