@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+conns:
+  workflow-core:
+    protocol: https
+    ip: 172.31.210.32
+    port: 443
+    uri: /ds/openapi/rel/workflow/process/deployment/deploy
+
