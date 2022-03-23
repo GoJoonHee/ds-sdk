@@ -266,7 +266,7 @@
         <coding_rule class="DesignExcessiveParameterList" level="MAJOR" enabled="false" />
         <coding_rule class="DesignExcessivePublicCount" level="MAJOR" enabled="false" />
         <coding_rule class="DesignFinalFieldCouldBeStatic" level="MINOR" enabled="true" />
-        <coding_rule class="DesignForExtensionCheck" level="MINOR" enabled="false" />
+        <coding_rule class="DesignForExtensionCheck" level="MINOR" enabled="true" />
         <coding_rule class="DesignGodClass" level="MAJOR" enabled="false" />
         <coding_rule class="DesignImmutableField" level="MAJOR" enabled="false" />
         <coding_rule class="DesignLawOfDemeter" level="MAJOR" enabled="false" />
@@ -471,7 +471,7 @@
         <coding_rule class="HRS_REQUEST_PARAMETER_TO_HTTP_HEADER" level="MAJOR" enabled="true" />
         <coding_rule class="HSC_HUGE_SHARED_STRING_CONSTANT" level="CRITICAL" enabled="true" />
         <coding_rule class="HeaderCheck" level="MAJOR" enabled="false" />
-        <coding_rule class="HiddenFieldCheck" level="MAJOR" enabled="false" />
+        <coding_rule class="HiddenFieldCheck" level="MAJOR" enabled="true" />
         <coding_rule class="HideUtilityClassConstructorCheck" level="MAJOR" enabled="true" />
         <coding_rule class="IA_AMBIGUOUS_INVOCATION_OF_INHERITED_OR_OUTER_METHOD" level="MAJOR" enabled="true" />
         <coding_rule class="ICAST_BAD_SHIFT_AMOUNT" level="CRITICAL" enabled="true" />
