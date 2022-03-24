@@ -7,8 +7,30 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\work\tools\maven\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="26mH7NrDuG8sDWJuREe4WWSzpbp" />
   <component name="ProjectViewState">
@@ -20,14 +42,40 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22643678" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\sdk2\ds-sdk" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="RunManager">
+    <configuration name="DsSdkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ds-sdk" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bluecloud.vnet.sdk.java.dssdk.DsSdkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -51,25 +99,74 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1648021672821</updated>
-      <workItem from="1648021674489" duration="861000" />
+      <workItem from="1648021674489" duration="4621000" />
+      <workItem from="1648085500017" duration="1849000" />
     </task>
+    <task id="LOCAL-00001" summary="sdk">
+      <created>1648024433287</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648024433287</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sdk" />
+    <option name="LAST_COMMIT_MESSAGE" value="sdk" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="292" y="98" key="Vcs.Push.Dialog.v2" timestamp="1648021963188">
+    <state x="329" y="0" key="CommitChangelistDialog2" timestamp="1648024432673">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="292" y="98" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1648021963188" />
+    <state x="329" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1648024432673" />
+    <state x="530" y="110" key="FileChooserDialogImpl" timestamp="1648087340139">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="110" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1648087340139" />
+    <state x="405" y="61" key="NewModule_or_Project.wizard" timestamp="1648024382975">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="405" y="61" key="NewModule_or_Project.wizard/0.0.1600.860@0.0.1600.860" timestamp="1648024382975" />
+    <state x="185" y="0" key="SettingsEditor" timestamp="1648087362945">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="185" y="0" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1648087362945" />
+    <state x="534" y="81" key="VCS.ChangeListViewerDialog" timestamp="1648085754973">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="534" y="81" key="VCS.ChangeListViewerDialog/0.0.1600.860@0.0.1600.860" timestamp="1648085754973" />
+    <state x="292" y="98" key="Vcs.Push.Dialog.v2" timestamp="1648085743245">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="292" y="98" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1648085743245" />
+    <state x="417" y="213" key="com.intellij.ide.util.TipDialog" timestamp="1648085657383">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="417" y="213" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1648085657383" />
+    <state x="559" y="328" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1648086555060">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="559" y="328" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1648086555060" />
     <state x="527" y="77" key="git4idea.branch.GitSmartOperationDialog" timestamp="1648022096078">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="527" y="77" key="git4idea.branch.GitSmartOperationDialog/0.0.1600.860@0.0.1600.860" timestamp="1648022096078" />
+    <state x="104" y="266" width="814" height="867" key="git4idea.log.GitShowExternalLogAction" timestamp="1648024364259">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="104" y="266" width="814" height="867" key="git4idea.log.GitShowExternalLogAction/0.0.1600.860@0.0.1600.860" timestamp="1648024364259" />
     <state x="1" y="107" key="new project wizard" timestamp="1648021679202">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="1" y="107" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1648021679201" />
+    <state x="380" y="332" width="840" height="858" key="search.everywhere.popup" timestamp="1648087327947">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="380" y="332" width="840" height="858" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1648087327947" />
   </component>
 </project>
