@@ -52,7 +52,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22643678" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -100,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1648021672821</updated>
       <workItem from="1648021674489" duration="4621000" />
-      <workItem from="1648085500017" duration="1849000" />
+      <workItem from="1648085500017" duration="3820000" />
     </task>
     <task id="LOCAL-00001" summary="sdk">
       <created>1648024433287</created>
@@ -132,10 +132,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="405" y="61" key="NewModule_or_Project.wizard/0.0.1600.860@0.0.1600.860" timestamp="1648024382975" />
-    <state x="185" y="0" key="SettingsEditor" timestamp="1648087362945">
+    <state x="185" y="0" key="SettingsEditor" timestamp="1648089207301">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="185" y="0" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1648087362945" />
+    <state x="185" y="0" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1648089207301" />
     <state x="534" y="81" key="VCS.ChangeListViewerDialog" timestamp="1648085754973">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
