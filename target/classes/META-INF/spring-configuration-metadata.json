@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "ds.address",
+      "type": "com.bluecloud.vnet.sdk.java.config.DSAddressConfiguration",
+      "sourceType": "com.bluecloud.vnet.sdk.java.config.DSAddressConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "ds.address.ip",
+      "type": "java.lang.String",
+      "sourceType": "com.bluecloud.vnet.sdk.java.config.DSAddressConfiguration"
+    },
+    {
+      "name": "ds.address.port",
+      "type": "java.lang.String",
+      "sourceType": "com.bluecloud.vnet.sdk.java.config.DSAddressConfiguration"
+    },
+    {
+      "name": "ds.address.protocol",
+      "type": "java.lang.String",
+      "sourceType": "com.bluecloud.vnet.sdk.java.config.DSAddressConfiguration"
+    },
+    {
+      "name": "ds.address.uri",
+      "type": "java.lang.String",
+      "sourceType": "com.bluecloud.vnet.sdk.java.config.DSAddressConfiguration"
+    }
+  ],
+  "hints": []
+}
