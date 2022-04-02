@@ -10,7 +10,7 @@ import java.time.Duration;
 /**
  * @author dong.liping3
  * @version 1.0
- * @description TODO
+ * @description RestTemplate 忽略ssl 检查
  * @date 2022/3/28
  * @see
  */
@@ -19,9 +19,8 @@ public class RestTemplateConfig {
 
     @Bean
     public RestTemplate restTemplateSDK(RestTemplateBuilder builder) {
-        RestTemplate restTemplate = builder.requestFactory(SslIngoreClientHttpRequestFactory::new)
+        return builder.requestFactory(SslIngoreClientHttpRequestFactory::new)
                 .setConnectTimeout(Duration.ofMillis(50000)).build();
-        return restTemplate;
 
     }
 }

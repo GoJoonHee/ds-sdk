@@ -1,10 +1,8 @@
 package com.bluecloud.vnet.sdk.java.enums;
 
 
-import com.bluecloud.vnet.sdk.java.util.EnumUtils;
-
 /**
- * @author hexinyu
+ * @author dong.liping3
  * @version 1.0
  * @description 流程节点方向
  * @date 2021/10/29
@@ -45,7 +43,4 @@ public enum FlowNodeType {
         this.code = code;
     }
 
-    public static FlowNodeType initBy(String code) {
-        return EnumUtils.initEnum(FlowNodeType.class, FlowNodeType::getCode, code);
-    }
 }

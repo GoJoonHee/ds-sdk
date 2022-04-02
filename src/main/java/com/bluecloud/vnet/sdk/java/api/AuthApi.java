@@ -13,12 +13,12 @@ import org.springframework.stereotype.Component;
 public class AuthApi {
 
     /**
-     * @author chenchen
-     * @description 描述
-     * @date 2022/3/23
      * @param
-     * @return
+     * @return java.lang.String
      * @throws
+     * @author dongliping
+     * @description 获取token
+     * @date 2022/4/1
      * @todo
      */
     public String getToken(){

@@ -9,14 +9,25 @@ import java.security.SecureRandom;
 import java.security.cert.X509Certificate;
 
 /**
- * @author hexinyu
+ * @author dong.liping3
  * @version 1.0
- * @description
+ * @description 忽略ssl检查
  * @date 2020/10/29
  * @link
  * @see
  */
 public class SslIngoreClientHttpRequestFactory extends SimpleClientHttpRequestFactory {
+
+    /**
+     * @param connection
+     * @param httpMethod
+     * @return void
+     * @throws
+     * @author dongliping
+     * @description 准备链接
+     * @date 2022/4/1
+     * @todo
+     */
     @Override
     protected void prepareConnection(HttpURLConnection connection, String httpMethod)
             throws IOException {
@@ -26,6 +37,15 @@ public class SslIngoreClientHttpRequestFactory extends SimpleClientHttpRequestFa
         super.prepareConnection(connection, httpMethod);
     }
 
+    /**
+     * @param connection
+     * @return void
+     * @throws
+     * @author dongliping
+     * @description 准备Https连接
+     * @date 2022/4/1
+     * @todo
+     */
     private void prepareHttpsConnection(HttpsURLConnection connection) {
         connection.setHostnameVerifier(new SkipHostnameVerifier());
         try {
@@ -35,6 +55,15 @@ public class SslIngoreClientHttpRequestFactory extends SimpleClientHttpRequestFa
         }
     }
 
+    /**
+     * @param
+     * @return javax.net.ssl.SSLSocketFactory
+     * @throws
+     * @author dongliping
+     * @description 创建ssl SocketFactory
+     * @date 2022/4/1
+     * @todo
+     */
     private SSLSocketFactory createSslSocketFactory() throws Exception {
         SSLContext context = SSLContext.getInstance("TLS");
         context.init(null, new TrustManager[]{new SkipX509TrustManager()},

@@ -4,9 +4,8 @@ import com.bluecloud.vnet.sdk.java.common.exception.DSRuntimeException;
 import com.bluecloud.vnet.sdk.java.config.DSAddressConfiguration;
 import com.bluecloud.vnet.sdk.java.conn.DSConn;
 import com.bluecloud.vnet.sdk.java.entity.CommonResult;
-import com.bluecloud.vnet.sdk.java.entity.req.CreateDeploymentRequest;
-import com.bluecloud.vnet.sdk.java.entity.resp.CreateDeploymentResponse;
-import com.bluecloud.vnet.sdk.java.tool.validation.enums.AbstractInEnumClassValidator;
+import com.bluecloud.vnet.sdk.java.entity.req.workflow.deploy.CreateDeploymentRequest;
+import com.bluecloud.vnet.sdk.java.entity.resp.workflow.deploy.CreateDeploymentResponse;
 import com.bluecloud.vnet.sdk.java.util.JSONUtil;
 import com.bluecloud.vnet.sdk.java.util.JsonReadFile;
 import org.slf4j.Logger;
@@ -28,7 +27,7 @@ import java.util.Set;
  */
 @Component
 public class WorkFlowApi {
-    private static final Logger LOG = LoggerFactory.getLogger(AbstractInEnumClassValidator.class);
+    private static final Logger LOG = LoggerFactory.getLogger(WorkFlowApi.class);
 
     @Autowired
     private DSAddressConfiguration dsAddressConfiguration;
@@ -40,12 +39,12 @@ public class WorkFlowApi {
     private Validator validator;
 
     /**
-     * @param
-     * @return
+     * @param jsonFilePath
+     * @return com.bluecloud.vnet.sdk.java.entity.CommonResult<com.bluecloud.vnet.sdk.java.entity.resp.workflow.deploy.CreateDeploymentResponse>
      * @throws
-     * @author chenchen
-     * @description 描述
-     * @date 2022/3/23
+     * @author dongliping
+     * @description 根据文件路径，发布工作流
+     * @date 2022/4/1
      * @todo
      */
     public CommonResult<CreateDeploymentResponse> createDeploymentByJSONFile(String jsonFilePath) {

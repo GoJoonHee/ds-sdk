@@ -1,10 +1,8 @@
 package com.bluecloud.vnet.sdk.java.enums;
 
 
-import com.bluecloud.vnet.sdk.java.util.EnumUtils;
-
 /**
- * @author hexinyu
+ * @author dong.liping3
  * @version 1.0
  * @description 流节点业务类型
  * @date 2021/10/29
@@ -47,7 +45,4 @@ public enum BizFlowNodeType {
         return code;
     }
 
-    public static BizFlowNodeType initBy(String code) {
-        return EnumUtils.initEnum(BizFlowNodeType.class, BizFlowNodeType::getCode, code);
-    }
 }

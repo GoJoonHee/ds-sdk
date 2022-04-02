@@ -21,27 +21,27 @@ public class DSEngine {
     private WorkFlowApi workFlowApi;
 
 
-    /**
-     * @author chenchen
-     * @description 描述
-     * @date 2022/3/23
-     * @param
-     * @return
-     * @throws
-     * @todo
-     */
+  /**
+   * @param 
+   * @return com.bluecloud.vnet.sdk.java.api.AuthApi
+   * @throws
+   * @author dongliping
+   * @description 
+   * @date 2022/4/1
+   * @todo
+   */
     public AuthApi auth() {
         return authApi;
     }
 
 
     /**
-     * @author chenchen
-     * @description 描述
-     * @date 2022/3/23
-     * @param
-     * @return
+     * @param 
+     * @return com.bluecloud.vnet.sdk.java.api.WorkFlowApi
      * @throws
+     * @author dongliping
+     * @description 
+     * @date 2022/4/1
      * @todo
      */
     public WorkFlowApi workflow() {
